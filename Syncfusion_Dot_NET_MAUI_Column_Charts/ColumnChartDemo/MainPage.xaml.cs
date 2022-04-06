@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Maui.Controls;
 using Syncfusion.Maui.Charts;
-namespace Charts
+namespace ColumnChartDemo
 {
 	public partial class MainPage : ContentPage
 	{
