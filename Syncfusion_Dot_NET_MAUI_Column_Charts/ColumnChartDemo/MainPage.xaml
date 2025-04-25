@@ -5,13 +5,13 @@
              xmlns:viewModel ="clr-namespace:ColumnChartDemo.ViewModel"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <Grid HorizontalOptions="FillAndExpand" Padding="20" BackgroundColor="White" VerticalOptions="FillAndExpand">
+    <Grid HorizontalOptions="Fill" Padding="20" BackgroundColor="White" VerticalOptions="Fill">
         <chart:SfCartesianChart>
             <chart:SfCartesianChart.BindingContext>
                 <viewModel:ViewModel/>
             </chart:SfCartesianChart.BindingContext>
             <chart:SfCartesianChart.Title>
-                <Label Text="Internet Users" Margin="5,10,5,10" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"></Label>
+                <Label Text="Internet Users" Margin="5,10,5,10" HorizontalTextAlignment="Center" HorizontalOptions="Fill"></Label>
             </chart:SfCartesianChart.Title>
             <chart:SfCartesianChart.XAxes>
                 <chart:CategoryAxis/>
